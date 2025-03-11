@@ -5,6 +5,14 @@
 ## Description
 A Python GUI tool to extract shipping costs from Mercado Livre listings using the API endpoint `https://api.mercadolibre.com/items/{ad_id}/shipping_options?zip_code={zip_code}`. Features asynchronous batch processing based on the sender's ZIP code, with a custom icon for the executable.
 
+## Why This Matters for Data Analysts
+For data analysts working with e-commerce data, obtaining accurate shipping costs from Mercado Livre listings is often a critical step in pricing analysis, cost optimization, and market research. Traditionally, this required time-consuming methods like web scraping, which are prone to errors due to website changes and rate-limiting issues. This tool solves that problem by:
+
+- **Direct API Access**: Uses the official Mercado Livre API for reliable and accurate data extraction.
+- **Batch Processing**: Processes multiple ad IDs asynchronously, saving hours of manual work.
+- **Error Handling**: Provides clear feedback on failures, ensuring data quality.
+- **No Web Scraping Hassles**: Unlike web scraping, this tool avoids the need for fragile HTML parsing, offering a more robust and maintainable solution.
+
 ## Important Notice
 ⚠️ **This tool extracts shipping costs only for Mercado Livre listings, not Mercado Shops.** Shipping costs on Mercado Shops may differ from Mercado Livre. Note that Mercado Shops will be discontinued by Mercado Livre on 31/12/2025. Until then, ensure the ad ID you provide belongs to a Mercado Livre listing to avoid confusion with shipping cost values.
 
