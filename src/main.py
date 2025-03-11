@@ -102,7 +102,7 @@ def run_gui():
         window.after(0, run_async)
 
     def show_contact_info():
-        messagebox.showinfo("Contact the Developer", "For bugs, errors, suggestions, or inquiries, contact me:\n- GitHub: LinaRachid\n- X: @SEU_USUARIO\n- Email: seu.email@example.com")
+        messagebox.showinfo("Contact the Developer", "For bugs, errors, suggestions, or inquiries, contact me:\n- GitHub: LinaRachid\n- Email: linarachid.ti@gmail.com")
 
     window = tk.Tk()
     window.title("Mercado Livre Shipping Extractor")
